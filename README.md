@@ -33,5 +33,5 @@ Some Go language exercises in text processing and concurrency with Docker contai
     *docker run wf2_v1* 
 
 
-* Exercise 3: <<work in progress>>
+* Exercise 3: *work in progress*
 
