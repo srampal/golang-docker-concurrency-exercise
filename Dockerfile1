@@ -1,0 +1,9 @@
+FROM golang
+RUN mkdir /go_exercise
+RUN mkdir /go_exercise/input_files/
+ADD wf1.go /go_exercise/
+ADD ./input_files/* /go_exercise/input_files/
+WORKDIR /go_exercise
+RUN go build -o wf1 .
+CMD ["/go_exercise/wf1"]
+
